@@ -1,0 +1,41 @@
+#maindiv
+{
+  display: flex;
+  height: 500px;
+  width: 900px;
+    justify-content: center;
+    align-items: center;
+   
+    border: 1px solid #000000;
+}
+
+#taskInput
+{
+    height: 42px;
+    width: 200px;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+     position: relative ;
+}
+
+#addTaskButton
+{
+    height: 42px;
+    width: 80px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#taskTable
+{
+   position: relative;
+   top: 60px;
+   right:220px;
+}
